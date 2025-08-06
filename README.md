@@ -1,7 +1,5 @@
 # Qando-Voice-Agent
 
-# 🧠 Voice Agent Verwerker – Addition Workflow
-
 Deze workflow automatiseert het verwerken van data die afkomstig is van een voice call binnen Retail AI, zoals gegenereerd door een virtuele agent. De workflow wordt geactiveerd zodra een gesprek is afgerond en de data beschikbaar komt.
 
 ## ⚙️ Functionaliteit
