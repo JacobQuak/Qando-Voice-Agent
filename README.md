@@ -15,7 +15,7 @@ Haalt de originele surveyvragen op uit SurveyMonkey via een HTTP Request, inclus
 ### Structureren van Antwoorden
 Een AI-agent ontvangt de ruwe transcriptie, analyseert deze en structureert de antwoorden van de gebruiker in het volgende JSON-format:
 
-``'json
+```json
 {
   "survey_data": [
     {
@@ -25,7 +25,7 @@ Een AI-agent ontvangt de ruwe transcriptie, analyseert deze en structureert de a
     ...
   ]
 }
-
+```
 ### Antwoorden Koppelen aan Vragen
 De tweede AI-agent vergelijkt de user-antwoorden uit de call met de vragen uit de originele survey, en koppelt ze zo goed mogelijk aan elkaar.
 
