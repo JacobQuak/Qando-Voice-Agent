@@ -1,4 +1,7 @@
 # Qando Voice Agent – Bellen met Retell AI
+ **Opmerking:** We gebruiken **Retell** niet meer voor voice calls,  
+> omdat het platform geen uitgaande gesprekken naar Nederlandse telefoonnummers ondersteunt.  
+> Deze beperking maakt het ongeschikt voor onze use cases waarbij we regelmatig klanten en contacten in Nederland moeten bellen.
 
 Met de **Qando Voice Agent** in [Retell AI](https://www.retellai.com) kun je automatisch gesprekken voeren met een lijst aan telefoonnummers.  
 De agent is ontworpen om gestructureerde interviews af te nemen en antwoorden op te slaan voor latere analyse.
