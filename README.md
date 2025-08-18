@@ -30,16 +30,13 @@ De tweede AI-agent vergelijkt de user-antwoorden uit de call met de vragen uit d
 ### Verwerken van Output
 Een stukje custom JavaScript haalt hieruit de uiteindelijke ‘vraag & antwoord’-paren voor verdere verwerking of opslag.
 
-### Contextgeheugen
-Er wordt gebruikgemaakt van ‘Langchain Memory’ om consistentie te bewaren binnen de sessie, zowel voor survey-data als voor interview-inhoud.
+
 
 ## 📦 Gebruikte Tools
 
 - `n8n Webhook`
 - `SurveyMonkey API`
-- `OpenAI` (via Langchain integratie)
 - Custom `JavaScript`-code voor parsing
-- `Langchain MemoryBufferWindow`
 
 ## 🔐 Veiligheid
 
