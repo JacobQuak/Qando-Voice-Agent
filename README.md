@@ -1,6 +1,6 @@
 # Qando-Voice-Agent
 
-Deze workflow automatiseert het verwerken van data die afkomstig is van een voice call binnen Retail AI, zoals gegenereerd door een virtuele agent. De workflow wordt geactiveerd zodra een gesprek is afgerond en de data beschikbaar komt.
+Deze workflow automatiseert het verwerken van data die afkomstig is van een voice call binnen Vapi, zoals gegenereerd door een virtuele agent. De workflow wordt geactiveerd zodra een gesprek is afgerond en de data beschikbaar komt.
 
 ## ⚙️ Functionaliteit
 
@@ -30,8 +30,6 @@ De tweede AI-agent vergelijkt de user-antwoorden uit de call met de vragen uit d
 ### Verwerken van Output
 Een stukje custom JavaScript haalt hieruit de uiteindelijke ‘vraag & antwoord’-paren voor verdere verwerking of opslag.
 
-### Contextgeheugen
-Er wordt gebruikgemaakt van ‘Langchain Memory’ om consistentie te bewaren binnen de sessie, zowel voor survey-data als voor interview-inhoud.
 
 ## 📦 Gebruikte Tools
 
@@ -39,7 +37,7 @@ Er wordt gebruikgemaakt van ‘Langchain Memory’ om consistentie te bewaren bi
 - `SurveyMonkey API`
 - `OpenAI` (via Langchain integratie)
 - Custom `JavaScript`-code voor parsing
-- `Langchain MemoryBufferWindow`
+
 
 ## 🔐 Veiligheid
 
