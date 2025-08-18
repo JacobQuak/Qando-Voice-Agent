@@ -18,6 +18,7 @@ De workflow verloopt globaal als volgt:
    Een AI node ontvangt de ongestructureerde tekst en probeert deze te herstructureren naar een begrijpelijke en logische vorm.
 
 4. **Matchen met originele surveyvragen**
+
    De antwoorden uit het gesprek worden vergeleken met de originele enquêtevragen, zodat de juiste input op de juiste vraag gematcht wordt. Dit gebeurt met behulp van een AI-agent die probeert semantische overeenkomsten te vinden tussen wat de gebruiker zegt en de oorspronkelijke vraagformulering.
 
 ---
