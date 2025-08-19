@@ -69,4 +69,11 @@ Voor inkomende gesprekken:
 - [ ] NL Geo-permission aan in Twilio.  
 - [ ] Outbound nummer Voice-capable en niet in “verdachte” ranges (097x vermijden).  
 - [ ] Genoeg saldo op Twilio-account.  
-- [ ] Bij trial: doelnummer verified in Twilio.  
+- [ ] Bij trial: doelnummer verified in Twilio.
+
+# 📌 Notitie: blokkade van 097x-nummers door providers
+
+In Nederland blokkeren sommige providers (zoals **KPN**) inkomende gesprekken wanneer de **Caller ID** een **097x-nummer** of ander virtueel nummer is.  
+
+Zo voorkom je dat gesprekken geweigerd worden met een `403 Forbidden` of dat de call niet wordt afgeleverd.
+
