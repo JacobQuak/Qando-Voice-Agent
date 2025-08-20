@@ -1,6 +1,6 @@
 # Qando-Voice-Agent
 
-Deze workflow automatiseert het verwerken van data die afkomstig is van een voice call binnen Retail AI, zoals gegenereerd door een virtuele agent. De workflow wordt geactiveerd zodra een gesprek is afgerond en de data beschikbaar komt.
+Deze workflow automatiseert het verwerken van data die afkomstig is van een voice call binnen Vapi AI, zoals gegenereerd door een virtuele agent. De workflow wordt geactiveerd zodra een gesprek is afgerond en de data beschikbaar komt.
 
 ## ⚙️ Functionaliteit
 
@@ -36,6 +36,7 @@ Een stukje custom JavaScript haalt hieruit de uiteindelijke ‘vraag & antwoord�
 
 - `n8n Webhook`
 - `SurveyMonkey API`
+- Twilio
 - Custom `JavaScript`-code voor parsing
 
 ## 🔐 Veiligheid
