@@ -1,29 +1,16 @@
 # 📞 Outbound bellen vanuit Vapi met Twilio — Critical Details
 
-## ⚠️ Belangrijk
-Gebruik **géén `transport` object** voor simpele PSTN-calls.  
-Je outbound nummer (`phoneNumber` of `phoneNumberId`) op **top-level** bepaalt automatisch de route via Twilio.
 
 ---
 
 ## 4. Configuratie in Twilio
 
-### Inbound webhooks
-Voor inkomende gesprekken:
 
-- **Webhook instellen op**: `https://api.vapi.ai/twilio/inbound_call`  
-- **Status callback**: `https://api.vapi.ai/twilio/status`  
-
-> Deze settings zijn *niet* nodig voor outbound-only calls, maar wel handig om volledige logs en status events te krijgen.
 
 ### Geo permissions
 - Twilio Console → **Voice → Geo permissions**  
 - Zorg dat **Netherlands (NL)** en alle bestemmingslanden aangevinkt staan.
 
-### Verified Caller IDs
-- **Trial accounts**: je kunt alleen bellen naar Verified Caller IDs.  
-- Ga naar **Twilio Console → Verified Caller IDs** en voeg je eigen mobiele nummer toe als test.  
-- **Voor productie**: koop een **NL Voice-nummer** (085 of 020 aanbevolen).
 
 ### Balance
 - Check dat er voldoende **saldo** is. Zonder tegoed geeft Twilio direct **403** of **402** errors.
@@ -73,7 +60,5 @@ Voor inkomende gesprekken:
 
 # 📌 Notitie: blokkade van 097x-nummers door providers
 
-In Nederland blokkeren sommige providers (zoals **KPN**) inkomende gesprekken wanneer de **Caller ID** een **097x-nummer** of ander virtueel nummer is.  
-
-Zo voorkom je dat gesprekken geweigerd worden met een `403 Forbidden` of dat de call niet wordt afgeleverd.
+In Nederland blokkeren sommige providers (zoals **KPN**) inkomende gesprekken wanneer de **Caller ID** een **097x-nummer** of ander virtueel nummer is. Vodafone accepteert wel 097 nummers. 
 
