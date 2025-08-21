@@ -18,4 +18,5 @@ Wil je dat de agent met jouw eigen stem spreekt? Dat kan door je eigen stemgelui
 2. Ga naar **Voice Configuration** en vink **Add Voice ID Manually** bij **Provider**.
 
 
+<img width="3016" height="381" alt="image" src="https://github.com/user-attachments/assets/a260a096-0ed0-40b9-98e3-5fe228ee3e1a" />
 
