@@ -51,6 +51,7 @@ Deze handleiding legt uit welke webhook-URL je nodig hebt in VAPI en waar je dez
    - **Respond**: `Immediately`
 4. Kopieer de **Production URL** van de Webhook-node.  
    🔹 **Niet** de Test URL gebruiken, want die werkt alleen tijdens development in *Test Execution*.
+<img width="3016" height="1283" alt="image" src="https://github.com/user-attachments/assets/7b2f50e8-56fd-463e-9265-ffd86eb1d6c0" />
 
 ---
 
