@@ -19,8 +19,12 @@ We hebben in **Prompts --> system prompt** een duidelijke system prompt gezet di
 - Antwoorden bevestigt voor doorgaan.
 - De taal in het Nederlands houdt.
 - Geen variabelen noemt tijdens het gesprek.
+- Voor een natuurlijke opening van het gesprek, zet *First Message Mode* op *Assistant speaks first with model generated message*. Vervolgens kan er in het system prompt een vaste opening van het gesprek gezet worden.
 
 > **Tip**: Zet al je vragen in een vaste volgorde in de prompt. Gebruik bevestigingen (“Ik noteer: … Klopt dat?”) voor duidelijkheid.
+
+<img width="2903" height="1117" alt="image" src="https://github.com/user-attachments/assets/6fe50cfe-da82-4489-95fd-74289fe6e94b" />
+
 
 ---
 
