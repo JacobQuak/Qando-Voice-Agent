@@ -33,7 +33,8 @@ We hebben in **Prompts --> system prompt** een duidelijke system prompt gezet di
 In **Advanced → Structured Data**:
 1. Voeg het prompt toe dat we onder 'structured data prompt' hebben staan.
 2. Voeg elke variabele die je expliciet gestructureerd uit het interview wil halen aan de properties (in dit geval: de variabelen van het system prompt.
-  > Zet Type op 'string' en vink isEnum aan bij elke variabele.
+  > Zet Type op 'string' bij elke variabele.
+<img width="2903" height="1117" alt="image" src="https://github.com/user-attachments/assets/36d4438b-8d79-4de3-955f-67ee7fa17e90" />
 
 # 🔗 Webhook instellen voor VAPI → n8n
 
