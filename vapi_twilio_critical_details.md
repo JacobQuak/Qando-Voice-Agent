@@ -50,9 +50,9 @@
 
 ## 7. Checklist voor succesvolle call
 
-- [ ] AssistantId correct ingevuld.  
+- [ ] AssistantId correct ingevuld in Vapi. 
 - [ ] phoneNumber/phoneNumberId aanwezig op top-level in payload.  
-- [ ] Nummers in E.164.  
+- [ ] Nummers in E.164 ingevoerd in Vapi.
 - [ ] NL Geo-permission aan in Twilio.  
 - [ ] Outbound nummer Voice-capable en niet in “verdachte” ranges (097x vermijden).  
 - [ ] Genoeg saldo op Twilio-account.  
