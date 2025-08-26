@@ -1,4 +1,4 @@
-# Voice assistant flow — Uitleg
+# Voice assistant flow — Uitleg deel 2
 
 Deze n8n-workflow doet twee dingen:
 
