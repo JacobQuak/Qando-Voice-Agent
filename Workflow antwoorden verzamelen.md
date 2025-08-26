@@ -1,4 +1,4 @@
-## 🧠 Voice Assistant Workflow – Uitleg
+## 🧠 Voice Assistant Workflow – Uitleg deel 1
 
 Deze workflow automatiseert het verwerken van gesprekken gevoerd door een voice assistant. Het doel is om gespreksdata (zoals transcripties) te analyseren, structureren en om te zetten in bruikbare output zoals vragenlijsten, user input, of inzichten.
 
