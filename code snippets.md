@@ -4,7 +4,7 @@ Deze file bundelt de belangrijkste n8n Code/HTTP-snippets uit de workflow, met p
 
 ---
 
-## 1) Code1 — Structured data uit de webhook tillen
+## 1) Code1 — Structured data uit het interview halen
 
 ```js
 // Pak de structuredData uit de webhook payload
